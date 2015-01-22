@@ -18,7 +18,11 @@ the program accepts 2 params: the string and the threshold (int)
 
 	$ java -jar eqey-0.1.0-standalone.jar ["my test key" 3]
 
-this generates teh equivalent key where every sequence of 1 or 0s longer than 3 will trigger a bit inversion
+use leiningen to build the jar like this (in the root of project)
+
+	$ lein -uberjar
+
+this generates the equivalent key where every sequence of 1 or 0s longer than 3 will trigger a bit inversion
 
 ## License
 
