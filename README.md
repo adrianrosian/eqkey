@@ -1,32 +1,24 @@
 # eqey
 
-FIXME: description
+equivalent key generation using the `eqvkey` library
 
 ## Installation
 
-Download from http://example.com/FIXME.
+Download jar from the target folder
 
 ## Usage
-
-FIXME: explanation
 
     $ java -jar eqey-0.1.0-standalone.jar [args]
 
 ## Options
 
-FIXME: listing of options this app accepts.
+the program accepts 2 params: the string and the threshold (int)
 
 ## Examples
 
-...
+	$ java -jar eqey-0.1.0-standalone.jar ["my test key" 3]
 
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
+this generates teh equivalent key where every sequence of 1 or 0s longer than 3 will trigger a bit inversion
 
 ## License
 
